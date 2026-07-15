@@ -5,7 +5,3 @@ WaseiHarmony.exe --progression I IV V I --start C5,G4,E4,C3 --max-results 10
 HTMLを自動で開かない場合:
 
 WaseiHarmony.exe --progression I IV V --start C5,G4,E4,C3 --max-results 3 --no-open
-
-代表サンプルを生成する場合:
-
-WaseiHarmony.exe --samples --max-results 3
