@@ -1,4 +1,4 @@
-Wasei Harmony Prototype v1.0.0
+Wasei Harmony Prototype v1.0.1
 ================================
 
 Windows 10/11 (64-bit) 用の和声配置候補生成プロトタイプです。
@@ -26,6 +26,7 @@ startup-diagnostic.txt をサポート窓口へお送りください。
 
 開始配置:
   S,A,T,B の順に、C5,G4,E4,C3 のように入力します。
+  区切りには半角カンマ、全角カンマ、日本語の読点、空白を使用できます。
 
 入力例:
   進行: I IV V I
