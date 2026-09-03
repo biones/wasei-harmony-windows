@@ -1,7 +1,20 @@
 コマンドプロンプトから直接実行する場合の例です。
 
+■ C長調 基本カデンツ
 WaseiHarmony.exe --progression I IV V I --start C5,G4,E4,C3 --max-results 10
 
-HTMLを自動で開かない場合:
+■ C長調 終止的四六（K2）と属七
+WaseiHarmony.exe --progression I II6 I64 V7 I --start C5,G4,E4,C3 --max-results 5
 
-WaseiHarmony.exe --progression I IV V --start C5,G4,E4,C3 --max-results 3 --no-open
+■ C長調 属七第3転回形（芸大和声表記: V73 -> I1）
+WaseiHarmony.exe --progression I IV V73 I1 --start C5,G4,E4,C3 --max-results 3
+
+■ イ短調（a minor）カデンツ
+WaseiHarmony.exe --key a --progression I IV V I --start A4,E4,C4,A2 --max-results 5
+
+■ ハ短調（c minor）偽終止
+WaseiHarmony.exe --key c --progression I IV V VI --start C5,G4,Eb4,C3 --max-results 5
+
+■ HTMLブラウザ自動起動を無効にする場合:
+WaseiHarmony.exe --progression I IV V I --no-open
+
